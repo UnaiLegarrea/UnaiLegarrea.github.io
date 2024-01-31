@@ -1,31 +1,23 @@
-@media only screen and (min-width: 360px) and (max-width: 932px) {    
-    
-    /* El logo de la imagen */
+.logo {
+    /* border: 1px solid black; */
+    width: 77px;
+}
+nav ul {
+    /* border: 1px solid green; */
+    list-style: none;
+    display:flex;
+    align-items: center;
+    z-index: 100;
+}
 
-    li > img {
-        width: 77px;
-        height: auto;
-        border: 1px solid blue;
-    }
-    /* Cada elemento del menu ej: inicio,reserva,producto */
-    ul li {
-        list-style: none;
-        padding: 10px;
-        text-decoration: none;
-        color: black;
-        border: 1px solid red;
-        float: left;
-        text-align: center;       
-    }
+li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0 12px;
+}
 
-    ul a {
-        text-decoration: none;
-    }
-
-    a:hover {
-        padding: 6px;
-        background-color: lightgrey;
-        border-radius: 2px;
-    }
-
+li a:hover {
+    background-color: #d3d3d3;
+    padding: 12px;
+    border-radius: 4px;
 }
