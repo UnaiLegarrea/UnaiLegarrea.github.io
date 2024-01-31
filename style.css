@@ -1,23 +1,21 @@
 @media only screen and (min-width: 360px) and (max-width: 932px) {    
     
     /* El logo de la imagen */
+
     li > img {
         width: 77px;
         height: auto;
-        position: relative;
-        top: 24px;
+        border: 1px solid blue;
     }
     /* Cada elemento del menu ej: inicio,reserva,producto */
     ul li {
         list-style: none;
-        display: inline;
         padding: 10px;
-    }
-    /*  */
-    ul li {
         text-decoration: none;
         color: black;
         border: 1px solid red;
+        float: left;
+        text-align: center;       
     }
 
     ul a {
@@ -25,7 +23,9 @@
     }
 
     a:hover {
+        padding: 6px;
         background-color: lightgrey;
+        border-radius: 2px;
     }
 
 }
