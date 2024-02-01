@@ -1,6 +1,7 @@
 .logo {
     /* border: 1px solid black; */
     width: 77px;
+    border: 1px solid red;
 }
 nav ul {
     /* border: 1px solid green; */
@@ -8,12 +9,14 @@ nav ul {
     display:flex;
     align-items: center;
     z-index: 100;
+    border: 1px solid red;
 }
 
 li a {
     text-decoration: none;
     color: #000000;
     padding: 0 12px;
+    border: 1px solid red;
 }
 
 li a:hover {
