@@ -1,33 +1,35 @@
 nav {
     padding: 0;
     margin: 0;
-    width: 88%;
-    opacity: 100%;
 }
-
 .logo {
-    width: 77px;
-    position: relative;
-    left: 0;
-    /* border: 1px solid rgb(14, 69, 187); */
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(14, 69, 187);
 }
 nav ul {
     list-style: none;
     display:flex;
     align-items: center;
-    z-index: 100;
-    /* border: 1px solid rgb(18, 236, 109); */
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(18, 236, 109);
 }
 
 li a {
     text-decoration: none;
     color: #000000;
     padding: 0 12px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 li a:hover {
     background-color: #d3d3d3;
     padding: 12px;
     border-radius: 4px;
+}
+
+/*  */
+#fondoImagen {
+    display: none;
 }
