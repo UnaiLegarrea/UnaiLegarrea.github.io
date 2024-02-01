@@ -1,17 +1,21 @@
-@media only screen and (min-width: 360px) and (max-width: 932px) {
+
     *{
     width: 100%;
-    }
-    #backInicio{
+    margin: 2% 0;
+}
+#backInicio{
     font-size: 30px;
-    display: flex;
-    }
-    #fondoImagen{
-    margin: 0;
-    padding: 0;
+    color: black;
+}
+#fondoImagen{
     border-radius: 0px 0px 20px 20px;
     position: absolute;
     top: 0;
+    margin: 0 0 5% 0;
     opacity: 50%;
     }
-}
+    #fondo{
+        position: static;
+        border: 1px solid red;
+    }
+    @media only screen and (min-width: 360px) and (max-width: 932px) {}
