@@ -1,15 +1,19 @@
+nav {
+    padding: 0;
+    margin: 0;
+}
 .logo {
-    /* border: 1px solid black; */
-    width: 77px;
-    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(14, 69, 187);
 }
 nav ul {
-    /* border: 1px solid green; */
     list-style: none;
     display:flex;
     align-items: center;
-    z-index: 100;
-    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(18, 236, 109);
 }
 
 li a {
