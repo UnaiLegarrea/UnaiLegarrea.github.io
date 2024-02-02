@@ -3,19 +3,23 @@
     width: 100%;
     margin: 2% 0;
 }
-#backInicio{
-    font-size: 30px;
-    color: black;
-}
-#fondoImagen{
-    border-radius: 0px 0px 20px 20px;
-    position: absolute;
+.fondo{
+    font-size:19px;
+    color: white;
+    border: 1px solid red;
+    margin: 0;
+    display: flex;
     top: 0;
-    margin: 0 0 5% 0;
+    z-index: -1;
+}
+#fondoimagen{
+    z-index: -1;
+    position: relative;
+}
+#backInicio{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
     opacity: 50%;
-    }
-    #fondo{
-        position: static;
-        border: 1px solid red;
-    }
-    @media only screen and (min-width: 360px) and (max-width: 932px) {}
+}
+@media only screen and (min-width: 360px) and (max-width: 932px) {}
