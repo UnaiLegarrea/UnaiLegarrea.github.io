@@ -7,6 +7,7 @@
 }
 /* Contenedor Nav */
 nav {
+    position: sticky;
     width: 100%;
     padding: 0;
     margin: 0;
@@ -37,7 +38,7 @@ li a {
     margin: 0;
     color: black;
     text-decoration: none;
-    border: 1px solid slateblue;
+    /* border: 1px solid slateblue; */
 }
 
 ul li a:hover {
