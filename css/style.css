@@ -36,3 +36,62 @@
 
 
 /* CONSULTA STYLE */
+.consulta input[type=text]{
+    width: 296px;
+    height: 30px;
+    border: transparent;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+}
+
+.consulta input::placeholder {
+    padding-left: 7px;
+}
+
+.consulta h1 {
+    color: white;
+    text-align: center;
+}
+
+.consulta {
+    background-color: #F3EBEB;
+}
+
+.consulta .fondoC {
+    padding-left: 12px;
+    padding-top: 12px;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 310px;
+    height: 320px ;
+}
+
+.consulta .espacio {
+    background-color: white;
+}
+
+.consulta input[type="submit"] {
+    border: none;
+    background-color: #FFF;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.consulta input[type="submit"]:hover {
+    background-color: #ebe7e7;
+}
+
+.consulta input[type = "date"]{
+    display: block; /* Para que no se junte con el boton */
+    width: 120px;
+    font-size: 16px;
+}
+
+.reserve{
+   background-color: 1px solid slateblue;
+   margin: 0 auto;
+}
