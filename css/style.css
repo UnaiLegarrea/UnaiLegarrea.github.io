@@ -71,7 +71,7 @@
     background-color: white;
 }
 
-.consulta input[type="submit"] {
+ input[type="submit"] {
     border: none;
     background-color: #FFF;
     color: black;
@@ -79,9 +79,10 @@
     height: 40px;
     border-radius: 20px;
     font-size: 16px;
+    padding: 1px 6px;
 }
 
-.consulta input[type="submit"]:hover {
+ input[type="submit"]:hover {
     background-color: #ebe7e7;
 }
 
@@ -94,4 +95,96 @@
 .reserve{
    background-color: 1px solid slateblue;
    margin: 0 auto;
+}
+/* Informancion Style */
+
+.informancion{
+    background-color: #F3EBEB;
+}
+.informancion article {
+    border: 1px solid slateblue;
+    display: grid;
+    grid-template-columns: 3;
+    gap: 10px;
+}
+
+.patin {
+    background-color: white;
+    border-radius: 20px;
+    padding: 12px;
+    width: 213px;
+    height: 213px;
+    grid-column: 1 / 2;
+}
+
+.bluetooth{
+    background-color: white;
+    height: 66px;
+    width: 126px;
+    border-radius: 7px;
+    grid-column: 2/4;
+}
+.bluetooth p {
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bluetoothIcon {
+    width: 47px;
+    height: auto;
+}
+
+.bateria{
+    background-color: white;
+    border-radius: 7px;
+    width: 116px;
+    height: 66px;
+    /* border: 1px solid saddlebrown; */
+    grid-column: 2 / 5;
+}
+
+
+.bateryIcon{
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+}
+
+.bateria p {
+    display: inline;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.candado{
+    width: 45px;
+    height: 45px;
+}
+
+.candadoF{
+    background-color: #3892FD;
+    width: 78px;
+    height: 58px;
+    border-radius: 7px;
+    /* border: 1px solid rgb(202, 27, 150); */
+    grid-column: 2/ 4;
+}
+
+.informancion > p {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    padding-right: 50px;
+}
+
+.mapa{
+    margin: 8px 12px;
+    width: 90%;
+    height: 150px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.informancion  input[type="submit"] {
+    margin: 0 35%;
 }
