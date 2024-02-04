@@ -56,6 +56,15 @@
 .consulta {
     background-color: #F3EBEB;
 }
+.consulta input[type=date]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reserve {
+    width: 150px;
+    border-radius: 20px;
+    height: 200px;
+}
 
 .consulta .fondoC {
     padding-left: 12px;
@@ -102,7 +111,7 @@
     background-color: #F3EBEB;
 }
 .informancion article {
-    border: 1px solid slateblue;
+    /* border: 1px solid slateblue; */
     display: grid;
     grid-template-columns: 3;
     gap: 10px;
@@ -141,6 +150,7 @@
     height: 66px;
     /* border: 1px solid saddlebrown; */
     grid-column: 2 / 5;
+    display: inline;
 }
 
 
@@ -168,13 +178,14 @@
     border-radius: 7px;
     /* border: 1px solid rgb(202, 27, 150); */
     grid-column: 2/ 4;
+    display: inline;
 }
 
 .informancion > p {
     font-size: 20px;
     font-weight: bold;
     display: inline;
-    padding-right: 50px;
+    padding-right: 40px;
 }
 
 .mapa{
