@@ -6,10 +6,10 @@
 .fondo{
     font-size:19px;
     color: white;
-    border: 1px solid red;
     margin: 0;
+
     position: relative;
-    height: 350px;
+    height: 250px;
     
 }
 #fondoImagen{
@@ -19,7 +19,7 @@
     top: 0;
     opacity: 50%;
     border-radius: 0 0 15px 15px;
-
+    
 }
 #backInicio{
     display: flex;
@@ -28,8 +28,27 @@
     justify-content: center;
     text-align: center;
     position: relative;
-    }
-    @media only screen and (min-width: 360px) and (max-width: 932px) {}
+}
+.informacion{
+    padding: 5%;
+    width: auto;
+    display: flex;
+    margin: 2%;
+    background-color: #F3EBEB;
+    border: 1px solid red;
+    border-radius: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-basis: 20%;
+}
+.contenido>p{
+    font-size: larger;
+    text-align: center;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 932px) {}
 
 
 
