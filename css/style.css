@@ -1,26 +1,33 @@
 
     *{
     width: 100%;
-    margin: 2% 0;
+    margin:  0;
 }
 .fondo{
     font-size:19px;
     color: white;
     border: 1px solid red;
     margin: 0;
-    display: flex;
-    top: 0;
-    z-index: -1;
-}
-#fondoimagen{
-    z-index: -1;
     position: relative;
+    height: 350px;
+    
+}
+#fondoImagen{
+    z-index: -1;
+    position: absolute;
+    border: 1px solid purple;
+    top: 0;
+    opacity: 50%;
+    border-radius: 0 0 15px 15px;
+
 }
 #backInicio{
-    position: absolute;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    opacity: 50%;
+    text-align: center;
+    position: relative;
     }
     #fondo{
         position: static;
