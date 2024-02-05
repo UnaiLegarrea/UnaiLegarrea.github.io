@@ -31,21 +31,25 @@
 }
 .informacion{
     padding: 5%;
-    width: auto;
     display: flex;
-    margin: 2%;
+    margin: 3%;
     background-color: #F3EBEB;
-    border: 1px solid red;
     border-radius: 15px;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
-    flex-basis: 20%;
+    width: auto;
+    height: auto;
 }
 .contenido>p{
     font-size: larger;
     text-align: center;
+}
+.informacion>p{
+    padding-top: 10px;
+}
+.novedades.informacion{
+    object-fit: fill;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 932px) {}
