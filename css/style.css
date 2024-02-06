@@ -1,27 +1,25 @@
 
-    *{
+*{
     width: 100%;
     margin:  0;
 }
 .fondo{
-    font-size:19px;
     color: white;
     margin: 0;
-
     position: relative;
-    height: 250px;
+    height: 70vw
     
 }
 #fondoImagen{
     z-index: -1;
     position: absolute;
-    border: 1px solid purple;
     top: 0;
     opacity: 50%;
     border-radius: 0 0 15px 15px;
     
 }
 #backInicio{
+    font-size: 7vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,18 +39,31 @@
     width: auto;
     height: auto;
 }
+.informacion>img{
+    width: 75%;
+    margin: auto;
+}
+.novedades>p{
+    font-size: 6vw;
+    text-align: center;
+}
 .contenido>p{
-    font-size: larger;
+    font-size: 6vw;
     text-align: center;
 }
 .informacion>p{
     padding-top: 10px;
+    font-size: 4vw;
+    display: inline;
+    padding-right: 40px;
 }
-.novedades.informacion{
-    object-fit: fill;
+h2{
+    font-size: 6vw;
 }
 
-@media only screen and (min-width: 360px) and (max-width: 932px) {}
+@media only screen and (min-width: 600px) {
+
+}
 
 
 
@@ -226,7 +237,7 @@
     display: inline;
 }
 
-.informancion  p {
+.informancion > p {
     font-size: 20px;
     font-weight: bold;
     display: inline;
