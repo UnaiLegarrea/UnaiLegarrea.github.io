@@ -46,4 +46,10 @@ ul li a:hover {
     padding: 0 15px;
     background-color: lightgray;
 }
-
+/* Posicion del menu */
+nav ul {
+    padding: 0;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.678);
+}
