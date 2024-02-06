@@ -135,8 +135,11 @@
 .consulta{
     background-color: #F3EBEB;
 }
+.informancion {
+    background-color: #F3EBEB;
+}
 .informancion article {
-    /* border: 1px solid slateblue; */
+    border: 1px solid slateblue;
     display: grid;
     grid-template-columns: 3;
     gap: 10px;
@@ -157,6 +160,7 @@
     width: 126px;
     border-radius: 7px;
     grid-column: 2/4;
+    border: 1px solid green;
 }
 .bluetooth p {
     display: inline;
@@ -173,8 +177,9 @@
     border-radius: 7px;
     width: 116px;
     height: 66px;
-    /* border: 1px solid saddlebrown; */
-    grid-column: 2 / 5;
+    border: 1px solid saddlebrown;
+    margin-top: -180px;
+    grid-column: 2 / 4;
     display: inline;
 }
 
@@ -198,10 +203,11 @@
 
 .candadoF{
     background-color: #3892FD;
+    margin-top: -120px;
     width: 78px;
     height: 58px;
     border-radius: 7px;
-    /* border: 1px solid rgb(202, 27, 150); */
+    border: 1px solid rgb(202, 27, 150);
     grid-column: 2/ 4;
     display: inline;
 }
