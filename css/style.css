@@ -1,25 +1,234 @@
 
     *{
     width: 100%;
-    margin: 2% 0;
+    margin:  0;
 }
 .fondo{
     font-size:19px;
     color: white;
-    border: 1px solid red;
     margin: 0;
-    display: flex;
-    top: 0;
-    z-index: -1;
-}
-#fondoimagen{
-    z-index: -1;
+
     position: relative;
+    height: 250px;
+    
+}
+#fondoImagen{
+    z-index: -1;
+    position: absolute;
+    border: 1px solid purple;
+    top: 0;
+    opacity: 50%;
+    border-radius: 0 0 15px 15px;
+    
 }
 #backInicio{
-    position: absolute;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    opacity: 50%;
+    text-align: center;
+    position: relative;
 }
+.informacion{
+    padding: 5%;
+    display: flex;
+    margin: 3%;
+    background-color: #F3EBEB;
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+.contenido>p{
+    font-size: larger;
+    text-align: center;
+}
+.informacion>p{
+    padding-top: 10px;
+}
+.novedades.informacion{
+    object-fit: fill;
+}
+
 @media only screen and (min-width: 360px) and (max-width: 932px) {}
+
+
+
+
+
+
+
+
+/* CONSULTA STYLE */
+.consulta input[type=text]{
+    width: 296px;
+    height: 30px;
+    border: transparent;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    margin: 10px 0 17px 0;
+}
+
+.consulta input::placeholder {
+    padding-left: 7px;
+}
+
+.consulta h1 {
+    color: white;
+    text-align: center;
+}
+
+.consulta {
+    background-color: #F3EBEB;
+}
+.consulta input[type=date]{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reserve {
+    width: 150px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.consulta .fondoC {
+    padding-left: 12px;
+    padding-top: 12px;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 310px;
+    height: 320px ;
+}
+
+ input[type="submit"] {
+    border: none;
+    background-color: #FFF;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 1px 6px;
+}
+
+ input[type="submit"]:hover {
+    background-color: #ebe7e7;
+}
+
+.consulta input[type="datetime-local"]{
+    display: block; /* Para que no se junte con el boton */
+    margin-left: -30px;
+    margin-bottom: 12px;
+    width: 170px;
+    font-size: 16px;
+}
+
+.reserve{
+    background-color: #F3EBEB;
+    margin: 0 auto;
+}
+/* Informancion Style */
+
+.consulta{
+    background-color: #F3EBEB;
+}
+.informancion {
+    background-color: #F3EBEB;
+}
+.informancion article {
+    /* border: 1px solid slateblue; */
+    display: grid;
+    grid-template-columns: 3;
+    gap: 10px;
+}
+
+.patin {
+    background-color: white;
+    border-radius: 20px;
+    padding: 12px;
+    width: 150px;
+    height: 150px;
+    margin: 12px;
+    grid-column: 1 / 2;
+}
+
+.bluetooth{
+    margin-top: 12px;
+    background-color: white;
+    height: 66px;
+    width: 126px;
+    border-radius: 7px;
+    grid-column: 2/4;
+    /* border: 1px solid green; */
+}
+.bluetooth p {
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bluetoothIcon {
+    width: 47px;
+    height: auto;
+}
+
+.bateria{
+    background-color: white;
+    border-radius: 7px;
+    width: 116px;
+    height: 66px;
+    /* border: 1px solid saddlebrown; */
+    margin-top: -120px;
+    grid-column: 2 / 4;
+    display: inline;
+}
+
+
+.bateryIcon{
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+}
+
+.bateria p {
+    display: inline;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.candado{
+    width: 45px;
+    height: 45px;
+}
+
+.candadoF{
+    background-color: #3892FD;
+    margin-top: -50px;
+    width: 78px;
+    height: 58px;
+    border-radius: 7px;
+    /* border: 1px solid rgb(202, 27, 150); */
+    grid-column: 2/ 4;
+    display: inline;
+}
+
+.informancion > p {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    padding-right: 40px;
+}
+
+.mapa{
+    margin: 8px 12px;
+    width: 90%;
+    height: 150px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.informancion  input[type="submit"] {
+    margin: 0 35%;
+}
