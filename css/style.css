@@ -237,7 +237,7 @@ h2{
     display: inline;
 }
 
-.informancion > p {
+.informancion  > p {
     font-size: 20px;
     font-weight: bold;
     display: inline;
@@ -333,7 +333,10 @@ h2{
     border: 0;
 }
 
-.OT{
-
+.informancion .foot p{
+    display: inline;
+    margin-left: 120px;
+    font-size: 40px;
 }
+
 }
