@@ -289,7 +289,22 @@ input[type="submit"] {
         align-items: baseline;
         
     }
+    .productos{
+        width: 50%;
     }
+    .informacion .mapa{
+        width: 600px;
+        margin-right: 10%;
+    }
+    .productos .informacion{
+        width: 50%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        img{
+            width: 50%;
+        }
+    }
+}
     h2{
         font-size: xx-large;
     }
