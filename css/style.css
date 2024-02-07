@@ -75,7 +75,8 @@ h2{
     padding-left: 7px;
 }
 
-.consulta h1 {
+.consulta,
+.productos h1 {
     color: #5b4141;
     text-align: center;
    padding-top: 24px;
@@ -300,15 +301,28 @@ input[type="submit"] {
             width: 50%;
         }
     }
+    table{
+        width: 100%;
+        border: 2px solid #ddd;
+    }
+
+    td,th {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
 
     h2{
         font-size: xx-large;
     }
-    .informacion>img{
-        width: 100%;
-        margin: auto;
+
+    .productos img {
+        width: 100px;
+        border-radius: 12px;
     }
-    
     .patin {
     width: 350px;
     height: 350px;
@@ -419,7 +433,4 @@ input[type="submit"] {
     width: 100%;
     flex-wrap: wrap;
     flex-direction: row;
-    img{
-        width: 35%;
-    }
 }
