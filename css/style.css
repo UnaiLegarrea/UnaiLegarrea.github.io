@@ -173,7 +173,6 @@ h2{
     width: 126px;
     border-radius: 7px;
     grid-column: 2/4;
-    /* border: 1px solid green; */
 }
 .bluetooth p {
     display: inline;
@@ -238,6 +237,12 @@ h2{
     display: inline;
 }
 
+.informancion  > p {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    padding-right: 40px;
+}
 
 .mapa{
     margin: 8px 12px;
@@ -249,4 +254,89 @@ h2{
 
 .informancion  input[type="submit"] {
     margin: 0 35%;
+}
+/*? Breakpoint informancion.html  Para PC*/
+@media only screen and (min-width: 992px){
+    .patin {
+        /* Imagen del Patín */
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 400px;
+    }
+/* Blue */
+    .bluetooth{
+        height: 100px;
+        width: 310px;
+        border-radius: 16px;
+        position: relative;
+        grid-column: 3/4;
+    }
+    .bluetooth p {
+        font-size: 32px;
+        font-weight: bold;
+        top: -9px;
+    }
+    .bluetoothIcon {
+        width: 94px;
+        height: auto;
+    }
+/* Bateria */
+.bateria{
+    border-radius: 16px;
+    width: 310px;
+    height: 100px;
+    grid-column: 3/ 4;
+    position: relative;
+    bottom: 150px;
+
+}
+
+
+.bateryIcon{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+.bateria p {
+    /* position: relative; */
+    left: 60px;
+    bottom: 50px;
+    font-size: 36px;
+}
+/* Icono */
+.candado{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 16px;
+}
+
+.candadoF{
+    left: 160px;
+    width: 150px;
+    height: 100px;
+    border-radius: 14px;
+    /* border: 1px solid rgb(202, 27, 150); */
+    grid-column: 3/ 4;
+    bottom: 90px;
+
+}
+.mapa{
+    margin-left: 5%;
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.informancion .foot p{
+    display: inline;
+    margin-left: 120px;
+    font-size: 40px;
+}
+
 }
