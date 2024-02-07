@@ -340,3 +340,19 @@ h2{
 }
 
 }
+/*PRODUCTOS STYLE*/
+#productos *{
+    box-sizing: border-box;
+}
+.informacion>iframe{
+    border-radius: 45%;
+    width: 45%;
+}
+#productos .informacion{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#productos .informacion>img{
+    width: 50%;
+}
