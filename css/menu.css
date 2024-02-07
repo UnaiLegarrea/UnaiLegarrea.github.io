@@ -1,6 +1,6 @@
 /* Tamaño del Logo */
 .logo {
-    width: 20vw;
+    width: 77px;
     height: auto;
     padding: 0;
     margin: 0;
@@ -14,7 +14,6 @@ nav {
     margin: 0;
     z-index: 1;
     display: flex;
-    /*border: 1px solid yellow;*/
     align-items: center;
 }
 /* Logo, Inicio ... */
@@ -26,7 +25,6 @@ nav ul {
     overflow: hidden;
     display: flex;
     align-items: center;
-    font-size: 3vw;
 }
 
 ul li {
@@ -44,7 +42,7 @@ li a {
 
 ul li a:hover {
     /* padding: 0 15px; */
-    background-color: lightgray;
+    background-color: rgb(161, 159, 159);
 }
 
 
