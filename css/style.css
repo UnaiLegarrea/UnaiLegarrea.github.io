@@ -59,10 +59,6 @@ h2{
     font-size: 6vw;
 }
 
-@media only screen and (min-width: 600px) {
-
-}
-
 /* CONSULTA STYLE */
 .consulta input[type=text]{
     width: 296px;
@@ -257,7 +253,51 @@ input[type="submit"] {
     margin: 0 35%;
 }
 /*? Breakpoint informancion.html  Para PC*/
-@media only screen and (min-width: 1199px) {
+@media only screen and (min-width: 1024px) {
+    #fondoImagen{
+        height: 500px;
+        object-position: center;
+        object-fit: cover;
+
+    }
+    .fondo{
+
+        height: 300px;
+    }
+    .informacion{
+        width: min-content;
+        font-size: large;
+        text-align:center;
+        padding: 2%;
+        
+    }
+    .informacion>p{
+        font-size: large;
+    }
+    .contenido{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    .novedades{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: baseline;
+        
+    }
+    }
+    h2{
+        font-size: xx-large;
+    }
+    .informacion>img{
+        width: 100%;
+        margin: auto;
+    }
+    .co
     .patin {
     width: 350px;
     height: 350px;
@@ -358,24 +398,20 @@ input[type="submit"] {
 }
 }
 
-
-
-
-
 /*PRODUCTOS STYLE*/
-#productos *{
-    box-sizing: border-box;
+.productos{
+    border: 1px solid red;
+    width: 100%;
 }
 .informacion>iframe{
-    border-radius: 45%;
-    width: 45%;
+    border-radius: 50px;
+    width: 100%;
 }
-#productos .informacion{
-    display: inline-flex;
-    flex-direction: row;
+.productos .informacion{
+    width: 100%;
     flex-wrap: wrap;
-}
-#productos .informacion>img{
-    width: 50%;
-}
+    flex-direction: row;
+    img{
+        width: 35%;
+    }
 }
