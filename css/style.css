@@ -152,15 +152,15 @@ input[type="submit"] {
     grid-template-columns: 3;
     gap: 10px;
 }
-
 .patin {
     background-color: white;
     border-radius: 20px;
     padding: 12px;
     width: 150px;
     height: 150px;
-    margin: 12px;
     grid-column: 1 / 2;
+    border: 1px solid rgb(255, 0, 0);
+    left: 0;
 }
 
 .bluetooth{
@@ -187,23 +187,21 @@ input[type="submit"] {
 }
 
 .bateria{
+    border: 1px solid seagreen;
     background-color: white;
     border-radius: 7px;
-    width: 116px;
+    width: 50px;
     height: 66px;
-    margin-top: -100px;
-    grid-column: 2 / 4;
     display: inline;
+    position: relative;
+    top: -40px;
 }
-
-
 .bateryIcon{
     margin-top: 12px;
     width: 50px;
     height: 50px;
     transform: rotate(90deg);
 }
-
 .bateria p {
     margin-left: 12px;
     position: relative;
@@ -231,7 +229,7 @@ input[type="submit"] {
     grid-column: 2/ 4;
     display: inline;
     top: 23px;
-    margin-bottom: 54px;
+    /* margin-bottom: 54px; */
 }
 
 .informancion  .foot p {
@@ -244,7 +242,7 @@ input[type="submit"] {
 .mapa{
     margin: 8px 12px;
     width: 90%;
-    height: 150px;
+    height: 100px;
     border-radius: 20px;
     border: 0;
 }
@@ -304,7 +302,7 @@ input[type="submit"] {
             width: 50%;
         }
     }
-}
+
     h2{
         font-size: xx-large;
     }
@@ -312,13 +310,14 @@ input[type="submit"] {
         width: 100%;
         margin: auto;
     }
-    .co
+    
     .patin {
     width: 350px;
     height: 350px;
     position: relative;
     left: 400px;
     }
+}
 /* Blue */
     .bluetooth{
         height: 100px;
@@ -343,8 +342,6 @@ input[type="submit"] {
     height: 100px;
     grid-column: 3/ 4;
     position: relative;
-    bottom: 150px;
-
 }
 
 
@@ -389,8 +386,7 @@ input[type="submit"] {
 
 .informancion .foot p{
     display: inline;
-    margin-left: 120px;
-    font-size: 40px;
+    font-size: 18px;
 }
 
 .informancion  input[type="submit"] {
@@ -399,6 +395,7 @@ input[type="submit"] {
    width: 240px;
    height: 80px;
 }
+
 /*? FIN informancion.html Para PC*/
 
 /** Para Tablets  */
@@ -408,7 +405,6 @@ input[type="submit"] {
   }
 
   .candadoF{
-    margin-top: -150px;
     margin-bottom: 54px;
 }
 }
