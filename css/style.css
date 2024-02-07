@@ -415,7 +415,6 @@ input[type="submit"] {
 
 /*PRODUCTOS STYLE*/
 .productos{
-    border: 1px solid red;
     width: 100%;
 }
 .informacion>iframe{
