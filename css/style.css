@@ -256,8 +256,9 @@ h2{
     margin: 0 35%;
 }
 /*? Breakpoint informancion.html  Para PC*/
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 1199px) {
     .patin {
+        /* border: 1px solid seagreen; */
         /* Imagen del Patín */
     width: 350px;
     height: 350px;
@@ -339,4 +340,21 @@ h2{
     font-size: 40px;
 }
 
+.informancion  input[type="submit"] {
+    margin: 0 45%;
+    font-size: 32px;
+   width: 240px;
+   height: 80px;
 }
+/*? FIN informancion.html Para PC*/
+
+/** Para Tablets  */
+@media only screen and (min-width: 481px) and (max-width: 1024px) { 
+    .patin {
+        border: 2px solid darkcyan;
+    }
+}
+
+}
+
+
